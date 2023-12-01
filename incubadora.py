@@ -230,7 +230,7 @@ class Temperatura(QtWidgets.QWidget):
         self.lcdPeso.repaint()
         self.lcdBebe.repaint()
 
-    def iniciar(self):
+    def iniciar(self):        //función incompleta
         self.arthrrun1 = True
         self.arthrrun2 = True
         self.reanudar()
@@ -249,7 +249,7 @@ class Temperatura(QtWidgets.QWidget):
             self.terminar()
             self.pushDesconectar.setText("Conectar")
         else:
-            self.iniciar()
+            self.iniciar()     //función incompleta
             self.pushDesconectar.setText("Desconectar")
 
 
