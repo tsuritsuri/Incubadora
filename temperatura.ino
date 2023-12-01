@@ -70,13 +70,7 @@ void loop() {
 
   TempK1=(beta/log(Rout1/Rinf)); // calc for temperature
   TempC1=TempK1-273.15;
-
-  //sensors2.requestTemperatures();
-  //float ds18b20Temperature2 = sensors2.getTempCByIndex(0);
-  //Serial.println("Bebé: ");
-  //Serial.println(ds18b20Temperature2);
-  //delay(1000);
-
+  
     // Imprimir la temperatura en el monitor serial
     Serial.print("Ambiente: ");
     Serial.print(TempC0);
